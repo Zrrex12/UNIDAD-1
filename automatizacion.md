@@ -161,7 +161,7 @@ docker --version
 ```
 Docker version 26.x.x, build xxxxxxx
 ```
-![Docker versión](imagenes/docker-version.png)
+<img src="imagenes/docker-version.png" alt="Docker versión" width="600">
 
 **Instalación de Docker Compose:**
 
@@ -196,7 +196,7 @@ git --version
 ```
 git version 2.x.x
 ```
-![Git versión](imagenes/git-version.png)
+<img src="imagenes/git-version.png" alt="Git versión" width="600">
 
 **Configuración inicial de Git:**
 
@@ -247,8 +247,7 @@ To generate this message, Docker took the following steps:
  4. The Docker daemon streamed that output to the Docker client, which sent it
     to your terminal.
 ```
-
-![Docker hello-world](imagenes/docker-hello-world.png)
+<img src="imagenes/docker-hello-world.png" alt="Docker hello-world" width="600">
 
 #### 2. Verificación de Docker Compose con archivo `.yml`
 
@@ -287,7 +286,7 @@ nginx-prueba    nginx:alpine   "/docker-entrypoint.…"   web       X seconds ag
 
 **Verificación en navegador:** Acceder a `http://localhost:8080` debe mostrar la página de bienvenida de Nginx.
 
-![Nginx en navegador](imagenes/nginx-localhost.png)
+<img src="imagenes/nginx-localhost.png" alt="Nginx en navegador" width="600">
 
 **Detener y limpiar contenedores de prueba:**
 
