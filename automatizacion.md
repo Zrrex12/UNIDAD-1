@@ -161,6 +161,7 @@ docker --version
 ```
 Docker version 26.x.x, build xxxxxxx
 ```
+![Docker versión](imagenes/docker-version.png)
 
 **Instalación de Docker Compose:**
 
@@ -195,6 +196,7 @@ git --version
 ```
 git version 2.x.x
 ```
+![Git versión](imagenes/git-version.png)
 
 **Configuración inicial de Git:**
 
@@ -246,7 +248,7 @@ To generate this message, Docker took the following steps:
     to your terminal.
 ```
 
-> 📸 **[Insertar captura de pantalla de la ejecución del comando `docker run hello-world`]**
+![Docker hello-world](imagenes/docker-hello-world.png)
 
 #### 2. Verificación de Docker Compose con archivo `.yml`
 
@@ -285,7 +287,7 @@ nginx-prueba    nginx:alpine   "/docker-entrypoint.…"   web       X seconds ag
 
 **Verificación en navegador:** Acceder a `http://localhost:8080` debe mostrar la página de bienvenida de Nginx.
 
-> 📸 **[Insertar captura de pantalla del resultado de `docker-compose ps` y del navegador]**
+![Nginx en navegador](imagenes/nginx-localhost.png)
 
 **Detener y limpiar contenedores de prueba:**
 
@@ -312,7 +314,6 @@ docker-compose down
 
 ## Conclusión
 
-**[Nombre del Estudiante]**
 
 A lo largo de esta primera unidad de Automatización de Infraestructura Digital, se llevó a cabo la instalación y configuración de un entorno de desarrollo completo orientado a la automatización de redes. El proceso permitió comprender de manera práctica cómo herramientas como Docker Engine, Docker Compose y Git se integran para formar un flujo de trabajo eficiente y reproducible.
 
