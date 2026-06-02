@@ -161,7 +161,6 @@ docker --version
 ```
 Docker version 26.x.x, build xxxxxxx
 ```
-<img src="imagenes/docker-version.png" alt="Docker versión" width="600">
 
 **Instalación de Docker Compose:**
 
@@ -196,7 +195,7 @@ git --version
 ```
 git version 2.x.x
 ```
-<img src="imagenes/git-version.png" alt="Git versión" width="600">
+<img src="imagenes/docker --version.png" alt="Git versión" width="600">
 
 **Configuración inicial de Git:**
 
@@ -247,7 +246,7 @@ To generate this message, Docker took the following steps:
  4. The Docker daemon streamed that output to the Docker client, which sent it
     to your terminal.
 ```
-<img src="imagenes/docker-hello-world.png" alt="Docker hello-world" width="600">
+<img src="imagenes/docker run hello-world.png" alt="Docker hello-world" width="600">
 
 #### 2. Verificación de Docker Compose con archivo `.yml`
 
@@ -263,6 +262,7 @@ services:
       - "8080:80"
     container_name: nginx-prueba
 ```
+<img src="imagenes/cat docker-compose.png" alt="Docker hello-world" width="600">
 
 **Ejecución del archivo YML:**
 
@@ -283,10 +283,11 @@ docker-compose logs web
 NAME            IMAGE          COMMAND                  SERVICE   CREATED         STATUS         PORTS
 nginx-prueba    nginx:alpine   "/docker-entrypoint.…"   web       X seconds ago   Up X seconds   0.0.0.0:8080->80/tcp
 ```
+<img src="imagenes/docker ps -a.png" alt="Docker hello-world" width="600">
 
 **Verificación en navegador:** Acceder a `http://localhost:8080` debe mostrar la página de bienvenida de Nginx.
 
-<img src="imagenes/nginx-localhost.png" alt="Nginx en navegador" width="600">
+<img src="imagenes/localhost.png" alt="Nginx en navegador" width="600">
 
 **Detener y limpiar contenedores de prueba:**
 
@@ -294,22 +295,6 @@ nginx-prueba    nginx:alpine   "/docker-entrypoint.…"   web       X seconds ag
 docker-compose down
 ```
 
----
-
-## Lista de Verificación del Entorno de Desarrollo
-
-| Herramienta | Instalada | Verificada | Versión |
-|---|---|---|---|
-| Docker Engine | ✅ | ✅ | 26.x.x |
-| Docker Compose | ✅ | ✅ | 2.x.x |
-| Git | ✅ | ✅ | 2.x.x |
-| Visual Studio Code | ✅ | ✅ | 1.x.x |
-| Extensión Docker (VSCode) | ✅ | ✅ | - |
-| Extensión YAML (VSCode) | ✅ | ✅ | - |
-| Imagen hello-world ejecutada | ✅ | ✅ | - |
-| Archivo .YML ejecutado con Compose | ✅ | ✅ | - |
-
----
 
 ## Conclusión
 
