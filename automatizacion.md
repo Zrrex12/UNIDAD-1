@@ -114,25 +114,7 @@ yay -S visual-studio-code-bin
 
 # Verificar instalación
 code --version
-```
 
-**Extensiones instaladas:**
-
-| Extensión | Descripción |
-|---|---|
-| Docker (Microsoft) | Administración de contenedores desde VSCode |
-| YAML (Red Hat) | Soporte y validación de archivos YAML |
-| GitLens | Visualización avanzada de historial Git |
-| Remote - Containers | Desarrollo dentro de contenedores Docker |
-| Python | Soporte para scripts de automatización |
-
-**Instalación de extensiones por CLI:**
-
-```shell
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension redhat.vscode-yaml
-code --install-extension eamodio.gitlens
-```
 
 #### Docker
 
@@ -307,22 +289,6 @@ Asimismo, la integración de Visual Studio Code con las extensiones de Docker y 
 
 En conclusión, el entorno de desarrollo configurado en esta unidad constituye una base sólida sobre la cual se pueden construir proyectos de automatización de infraestructura de red más complejos, aplicando principios de Infrastructure as Code (IaC) y DevOps que son ampliamente demandados en la industria actual.
 
----
-
-## Anexo – Recursos de la Comunidad de Colaboración
-
-| Recurso | URL |
-|---|---|
-| Repositorio base del proyecto | https://github.com/edomenzain/automatizacion-redes |
-| Docker Hub – Imágenes oficiales | https://hub.docker.com/ |
-| Documentación oficial de Docker | https://docs.docker.com/ |
-| Documentación de Docker Compose | https://docs.docker.com/compose/ |
-| Swagger UI en Docker Hub | https://hub.docker.com/r/swaggerapi/swagger-ui |
-| Documentación de Git | https://git-scm.com/doc |
-| Extensiones de VSCode para Docker | https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker |
-| Stack Overflow – Comunidad Docker | https://stackoverflow.com/questions/tagged/docker |
-
----
 
 ## Bibliografía
 
